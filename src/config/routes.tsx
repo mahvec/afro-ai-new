@@ -1,5 +1,5 @@
 import { Navigate, RouteObject } from "react-router-dom";
-import Homepage from "@/domain/homepage/index";
+import Homepage from "@/domain/home/index";
 import Layouts from "@/domain";
 import AboutUs from "@/domain/about-us";
 import Faq from "@/domain/faq";

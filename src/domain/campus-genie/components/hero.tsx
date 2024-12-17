@@ -1,4 +1,4 @@
-import { ImagesSlider } from "@/domain/homepage/components/image_slider";
+import { ImagesSlider } from "@/domain/home/components/image_slider";
 import { motion } from "framer-motion";
 
 export default function Hero() {
