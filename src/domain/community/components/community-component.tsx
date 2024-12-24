@@ -175,23 +175,23 @@ export default function CommunityNotes() {
             <h3 className="text-2xl font-semibold mb-2">Still Stuck?</h3>
             <p className="mb-2">We're just a message away</p>
             <ul className="list-none pl-5 mb-4">
-              <ListItem>Chat with us 24/7 in the app</ListItem>
+              <ListItem>Chat with us 24/7 on this website</ListItem>
               <ListItem>
                 Email:{" "}
                 <a
-                  href="mailto:support@afroai.com"
+                  href="mailto:support@afroai.ai"
                   className="text-blue-400 hover:underline"
                 >
                   support@afroai.com
                 </a>
               </ListItem>
               <ListItem>
-                WhatsApp:{" "}
+                Upload Lecture Notes:{" "}
                 <a
-                  href="https://wa.me/support@afroai.com"
+                  href="mailto:documents@afroai.ai"
                   className="text-blue-400 hover:underline"
                 >
-                  support@afroai.com
+                  documents@afroai.ai
                 </a>
               </ListItem>
             </ul>

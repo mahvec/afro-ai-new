@@ -9,7 +9,7 @@ export default function AboutAfro() {
         </div>
 
         <div className="w-full  justify-between items-start lg:gap-20 mt-10">
-          <p className="text-white text-lg md:text-2xl w-full lg:w-1/2 flex flex-col items-start gap-2">
+          <p className="text-white text-lg md:text-lg w-full lg:w-1/2 flex flex-col items-start gap-2">
             <p className="text-[#67e8bc]">Afro AI</p>
 
             <span className="text-justify">
@@ -23,7 +23,7 @@ export default function AboutAfro() {
           </p>
         </div>
         <div className="w-full flex justify-end items-start lg:gap-20 mt-10 text-right text-white">
-          <div className=" text-lg md:text-2xl w-full lg:w-1/2 flex flex-col items-start gap-2 ">
+          <div className=" text-lg md:text-lg w-full lg:w-1/2 flex flex-col items-start gap-2 ">
             <p className="text-[#67e8bc]">Our Story</p>
             <p className="text-justify text-white">
               The journey began when we noticed a significant gap: while premium
@@ -37,7 +37,7 @@ export default function AboutAfro() {
           </div>
         </div>
         <div className="w-full  justify-between items-start lg:gap-20 mt-10">
-          <p className="text-white text-lg md:text-2xl w-full lg:w-1/2 flex flex-col items-start gap-2">
+          <p className="text-white text-lg md:text-lg w-full lg:w-1/2 flex flex-col items-start gap-2">
             <p className="text-[#67e8bc]">Our Mission</p>
 
             <span className="text-justify">

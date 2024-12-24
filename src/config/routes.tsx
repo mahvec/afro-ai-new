@@ -5,6 +5,8 @@ import AboutUs from "@/domain/about-us";
 import Faq from "@/domain/faq";
 import Contact from "@/domain/contact";
 import Community from "@/domain/community";
+import Privacy from "@/domain/privacy-policy";
+import Disclaimer from "@/domain/disclaimer";
 
 export default function appRouter(): RouteObject[] {
   return [
@@ -35,6 +37,14 @@ export default function appRouter(): RouteObject[] {
         {
           path: "contact",
           element: <Contact />,
+        },
+        {
+          path: "privacy",
+          element: <Privacy />,
+        },
+        {
+          path: "disclaimer",
+          element: <Disclaimer />,
         },
       ],
     },

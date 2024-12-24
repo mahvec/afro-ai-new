@@ -84,10 +84,10 @@ export default function Hero() {
                   <span>4.</span>
                   <span className="ml-2">
                     <span className="uppercase text-[#67e8bc]">
-                      Q: Can Afro AI help with my Course work?
+                      Q: Can Afro AI help with my Course work/Assignemnts?
                     </span>{" "}
                     A: Yes! Afro AI/Campus Genie/Wisenurse can explain concepts
-                    and guide you through problems. Remember, the goal is to
+                    ,guide you through problems and bring up mock Exams/Tests. Remember, the goal is to
                     learn, not just get answers.
                   </span>
                 </p>
@@ -106,8 +106,7 @@ export default function Hero() {
                     <span className="uppercase text-[#67e8bc]">
                       Q: How much does Afro AI cost?
                     </span>{" "}
-                    A: We offer flexible pricing plans. Check our pricing page
-                    for details.
+                    A: We offer flexible pricing plans with payment options available in Naira, Ghanaian Cedis, and Kenyan Shillings. While our prices may fluctuate with the dollar exchange rate, we are committed to providing the best possible rates. Please visit our pricing page for more details.
                   </span>
                 </p>
                 <p className="flex items-start">
@@ -116,13 +115,7 @@ export default function Hero() {
                     <span className="uppercase text-[#67e8bc]">
                       Q: How is Afro AI different from other AI assistants?
                     </span>{" "}
-                    A: Afro AI is not different from other AI assistants; it
-                    only brings the premium models of Chatgpt and Claude AI at
-                    your fingertips for an affordable price which might have
-                    cost you $20 dollars ( N27,000/N30,000). Therefore you are
-                    not using a different AI assistant, you are using the same
-                    premium model of Chatgpt 4(4o) or Claude AI (Claude 3
-                    Sonnet)
+                    A: Afro AI brings the premium models of ChatGPT and Claude 3.5 at to your fingertips at an affordable price, which would otherwise cost $20 (around N27,000–N30,000). Therefore, you are using the same premium model (ChatGPT 4o or Claude 3.5 Sonnet) to interact with your lecture notes as other top-tier assistants
                   </span>
                 </p>
                 <p className="flex items-start">

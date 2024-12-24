@@ -68,7 +68,7 @@ const AccordionComp: React.FC = () => {
     {
       title: "affordability",
       content:
-        "Unlock the power of GPT-4 with very affordable pricing tailored for African contex.",
+        "Unlock AI's potential for study and creativity with premium tools, affordably priced for the African context.▌",
     },
     {
       title: "Localization",

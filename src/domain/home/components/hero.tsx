@@ -23,38 +23,43 @@ export default function Hero() {
         <main className="  w-full p-3 lg:p-0">
           <div className="container mx-auto flex flex-col items-start justify-start lg:space-y-8">
             <motion.p className="text-2xl md:text-3xl lg:text-[40px] text-[#67e8bc] uppercase md:w-[50%] font-bold">
-              Unlock AI Power Tailored for Africa
+            Experience The Power of Premium AI Models Tailored for Africa
             </motion.p>
             <motion.p className="text-[#67e8bc]  md:text-xl">
-              Access premium AI tools like ChatGPT 4 in local currencies. Boost
-              your learning and productivity.
+            Access premium AI tools for a 5-10x boost in academic performance and productivity.
             </motion.p>
             <motion.p className="text-[#67e8bc] flex flex-col mt-20  md:text-xl">
               <span className=" uppercase">Our Offerings</span>
-              <span className="">Affordable access to top AI models</span>
+              <span className=""></span>
             </motion.p>
-            <div className="md:w-[60%] lg:w-[40%] pl-5 text-sm md:text-lg mt-2 space-y-2">
+            <div className="md:w-[60%] lg:w-[40%] pl-5 text-sm md:text-base mt-2 space-y-2">
               <motion.p className="text-[#67e8bc] flex">
                 <span>●</span>
                 <span>
-                  Campus Genie: AI-powered assistant for university,
-                  polytechnic, and college of education students
+                <b>Campus Genie</b>: Interact with your lecture notes
+                and past exam questions using our premium AI-powered assistant for Universities, Polytechnics,
+                Colleges of Education, Secondary/High School Students.
                 </span>
               </motion.p>
               <motion.p className="text-[#67e8bc] flex ">
                 <span>●</span>
                 <span>
-                  Wise Nurse: Specialized for nursing and medical students
-                  (anatomy, physiology, etc.). Interact with your lecture notes
-                  and past exam questions for a 5-10x boost in academic
-                  performance.
+                <b>Wise Nurse</b>: Interact with your lecture notes
+                and past exam questions using our premium AI-powered assistant specialized for nursing and medical students
+                (Anatomy, Physiology, Biochemistry etc.)
+                </span>
+              </motion.p>
+              <motion.p className="text-[#67e8bc] flex ">
+                <span>●</span>
+                <span>
+                <b>Afro AI ChatBot</b>: Interact with the premium model of ChatGpt 4o using our AI assistant called "Afro"  
                 </span>
               </motion.p>
             </div>
             <motion.p className="">
               <div className="flex justify-center mt-10 ">
                 <a
-                  href="http://www.afrocentricai.org/login"
+                  href="http://login.afroai.ai"
                   className=" py-3 bg-[#67e8bc] text-[#1a1a2e] font-bold px-10"
                 >
                   Get started
