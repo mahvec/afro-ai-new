@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
             <h1 className="text-xl lg:text-4xl py-4 lg:py-10">
               HOW{" "}
               <span className="text-[#67e8bc]">
-                AFRO ARTIFICIAL INTELLIGENCE{" "}
+                AFRO AI{" "}
               </span>{" "}
               ENHANCES YOUR EXPERIENCES
             </h1>
@@ -20,18 +20,14 @@ export default function WhyChooseUs() {
                 WHY <span className="text-[#67e8bc]">AFRO AI? </span>
               </h2>
               <p className="lg:text-lg text-sm text-justify">
-                AFFORDABLE: You you can access the premium version of ChatGpt 4o
-                through our AI assistant Afro AI for just N2,800 (about 28
-                Ghanaian cedis or 223 Kenyan shillings). This is much cheaper
-                than subscribing directly, which usually costs $20 per month and
-                must be paid in dollars. Direct subscriptions would cost around
-                N27,000 to N30,000 (about 299 Ghanaian cedis or 2,500 Kenyan
-                shillings), depending on the exchange rate.
+              <span className="text-[#67e8bc]">Affordable AI Study Tools:</span> Interact seamlessly with your lecture notes using Campus Genie or Wisenurse via ChatGPT 4.0 or Claude 3.5 Sonnet—all 
+              in one place with our AI assistant, Afro AI. Enjoy the premium features for just N3,900 (about 38 Ghanaian cedis or 311 Kenyan shillings).
+              Future discounts available when you engage with our training videos on YouTube. Streamline your study experience affordably!"▌
               </p>
 
               <p className="lg:text-lg text-sm text-justify">
                 The big idea here is not to create a new AI but to take the most
-                powerful premium AI tool (ChatGPT 4) that already exists and
+                powerful premium AI tool (ChatGPT 40 and Claude 3.5 Sonnet) that already exists and
                 make it affordable for Africans. Afro AI ensures Africans can
                 use the same advanced technology as anyone else, but at a price
                 that makes sense for Africa.
