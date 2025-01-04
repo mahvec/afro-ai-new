@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-screen bg-black text-white">
+    <footer className="w-full bg-black text-white">
       <div className="container mx-auto p-3">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -10,7 +10,10 @@ export default function Footer() {
               alt="logo"
             />
             <p className="max-w-xs mt-4 text-sm">
-            AFRO AI: <span className="text-[#67e8bc]">Promoting the Spirit of Ubuntu.</span>
+              AFRO AI:{" "}
+              <span className="text-[#67e8bc]">
+                Promoting the Spirit of Ubuntu.
+              </span>
             </p>
             <div className="flex mt-8 space-x-6">
               <a
@@ -199,8 +202,12 @@ export default function Footer() {
           </div>
         </div>
         <p className="mt-8 text-xs text-[#67e8bc]">
-          © {new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Lagos" })).getFullYear()} Blathium Technology
-          </p>
+          ©{" "}
+          {new Date(
+            new Date().toLocaleString("en-US", { timeZone: "Africa/Lagos" })
+          ).getFullYear()}{" "}
+          Blathium Technology
+        </p>
       </div>
     </footer>
   );

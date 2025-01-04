@@ -7,7 +7,7 @@ import WhyChooseUs from "./components/why_choose_us";
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
       <Trusted />
       <Products />

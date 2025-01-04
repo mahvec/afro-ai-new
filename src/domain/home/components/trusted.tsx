@@ -7,7 +7,7 @@ export default function Trusted() {
         <VelocityScroll
           text="Experience the Power of Premium Models of A.I."
           default_velocity={1}
-          className="font-display text-center text-4xl container mx-auto font-bold tracking-[-0.02em] text-white md:text-7xl md:leading-[5rem]"
+          className="font-display text-center text-3xl font-bold tracking-[-0.02em] text-white md:text-7xl md:leading-[5rem]"
         />
       </div>
       <div className="container mx-auto flex items-center justify-center p-3 lg:p-0">
