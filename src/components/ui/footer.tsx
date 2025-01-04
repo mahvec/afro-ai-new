@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <img
-              src="https://www.afrocentricai.org/_next/static/media/logo.4ce121e8.png"
+              src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
               className="mr-5 h-6 sm:h-9"
               alt="logo"
             />
@@ -164,7 +164,7 @@ export default function Footer() {
             <div>
               <p className="font-medium">Helpful Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/contact">
                   {" "}
                   Contact{" "}
                 </a>
@@ -181,7 +181,7 @@ export default function Footer() {
             <div>
               <p className="font-medium">Legal</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/privacy">
                   {" "}
                   Privacy Policy{" "}
                 </a>
@@ -189,9 +189,9 @@ export default function Footer() {
                   {" "}
                   Terms &amp; Conditions{" "}
                 </a>
-                <a className="hover:opacity-75" href="">
+                <a className="hover:opacity-75" href="/disclaimer">
                   {" "}
-                  Returns Policy{" "}
+                  Disclaimer{" "}
                 </a>
                 <a className="hover:opacity-75" href="">
                   {" "}

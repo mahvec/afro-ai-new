@@ -6,14 +6,13 @@ export default function Products() {
   return (
     <main className="bg-black w-screen h-full">
       <div className="container mx-auto p-2 lg:p-0">
-        <p className="text-[48px] uppercase font-bold space-x-2">
+        <p className="text-[38px] uppercase font-bold space-x-2">
           <span className="text-white">our</span>
           <span className="text-[#67e8bc]">products</span>
         </p>
 
-        <p className="py-5 text-white text-xl">
-          Discover a range of A.I products at Afor A.i, designed to suit your
-          unique needs and aspirations
+        <p className="py-5 text-white text-lg">
+          Discover a range of AI products at Afro AI, designed to boost your academic performance and aspirations.
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4  mx-auto w-full py-10 space-y-4">
@@ -27,15 +26,13 @@ export default function Products() {
 
             <div className="relative p-4 sm:p-6 lg:p-8">
               <p className="text-xl font-bold text-[#67e8bc] sm:text-2xl">
-                AFRO AI
+                AFRO AI CHATBOT
               </p>
 
               <div className="mt-32 sm:mt-48 lg:mt-64">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
                   <p className="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Omnis perferendis hic asperiores quibusdam quidem voluptates
-                    doloremque reiciendis nostrum harum. Repudiandae?
+                  Interact with the premium model of ChatGpt 4o using our AI assistant called "Afro"
                   </p>
                 </div>
               </div>
@@ -57,9 +54,9 @@ export default function Products() {
               <div className="mt-32 sm:mt-48 lg:mt-64">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
                   <p className="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Omnis perferendis hic asperiores quibusdam quidem voluptates
-                    doloremque reiciendis nostrum harum. Repudiandae?
+                  Interact with your lecture notes
+                and past exam questions using our premium AI-powered assistant for Universities, Polytechnics,
+                Colleges of Education, Secondary/High School Students.
                   </p>
                 </div>
               </div>
@@ -81,9 +78,9 @@ export default function Products() {
               <div className="mt-32 sm:mt-48 lg:mt-64">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
                   <p className="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Omnis perferendis hic asperiores quibusdam quidem voluptates
-                    doloremque reiciendis nostrum harum. Repudiandae?
+                   Interact with your lecture notes
+                and past exam questions using our premium AI-powered assistant specialized for nursing and medical students
+                (Anatomy, Physiology, Biochemistry etc.)
                   </p>
                 </div>
               </div>

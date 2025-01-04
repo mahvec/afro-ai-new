@@ -15,11 +15,11 @@ export default function Navbar() {
           <div className=" flex flex-wrap items-center justify-between ">
             <Link to="/" className="flex font-orbitron gap-2">
               <img
-                src="https://www.afrocentricai.org/_next/static/media/logo.4ce121e8.png"
+                src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
                 alt="Afro ai"
               />
               <span className="self-center uppercase text-lg font-semibold whitespace-nowrap">
-                afro a.i
+                Afro AI
               </span>
             </Link>
 
@@ -34,7 +34,7 @@ export default function Navbar() {
               </ul>
 
               <a
-                href={"http://www.afrocentricai.org/login"}
+                href={"http://login.afroai.ai"}
                 className="p-3 rounded bg-[#67e8bc] text-black uppercase font-semibold hover:bg-black hover:border border-[#67e8bc]  hover:text-[#67e8bc] transition-all duration-700 ease-in-out"
               >
                 Get Started
@@ -49,11 +49,11 @@ export default function Navbar() {
           <div className="bg-black flex items-center justify-between z-[100]">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="https://www.afrocentricai.org/_next/static/media/logo.4ce121e8.png"
+                src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
                 alt="Afro ai"
               />
               <span className="self-center uppercase text-lg font-semibold whitespace-nowrap">
-                afro a.i
+                Afro AI
               </span>
             </Link>
 
@@ -103,7 +103,7 @@ export default function Navbar() {
             </ul>
 
             <a
-              href={"http://www.afrocentricai.org/login"}
+              href={"http://www.afroai.ai/login"}
               className="p-3 rounded bg-[#67e8bc] text-black uppercase font-semibold hover:bg-black hover:border border-[#67e8bc]  hover:text-[#67e8bc] transition-all duration-700 ease-in-out"
             >
               Get Started

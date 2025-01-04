@@ -8,8 +8,8 @@ export default function ContactUs() {
           <p className="font-bold text-[40px]">Send us a message</p>
           <p className="text-center">
             We'd love to hear from you! Whether you have questions, need career
-            advice, or want to learn more about our services, the team at Abuja
-            Recruiters is here to help.
+            advice, or want to learn more about our services, the team at <span className="capitalize text-[#67e8bc]">AFRO AI</span> are
+            here to help.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export default function ContactUs() {
             <h1 className="text-[40px] text-[#67e8bc] uppercase font-bold text-center mb-8">
               Get In Touch with Us!
             </h1>
-            <p className="text-center text-lg text-[#67e8bc] mb-4">
+            <p className="text-center text-xl text-[#67e8bc] mb-4">
               Empowering Africa with Pay as you go Premium AI
             </p>
             <p className="text-center mb-10">
@@ -104,7 +104,7 @@ export default function ContactUs() {
               valuable feedback.
             </p>
 
-            <div className="space-y-8 text-sm">
+            <div className="space-y-8 text-base">
               <h2 className="text-[24px] text-[#67e8bc] font-semibold">
                 Get in Touch through:
               </h2>
