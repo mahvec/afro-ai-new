@@ -9,8 +9,8 @@ export default function Navbar() {
   const handleNav = () => setNav(!nav);
 
   return (
-    <div>
-      <div className="w-screen font-exo bg-black text-[#67e8bc] z-50 fixed uppercase">
+    <div className="w-screen">
+      <div className="w-full font-exo bg-black text-[#67e8bc] z-50 fixed uppercase">
         <nav className="container mx-auto border-gray-200 p-5">
           <div className=" flex flex-wrap items-center justify-between ">
             <Link to="/" className="flex font-orbitron gap-2">
@@ -45,7 +45,7 @@ export default function Navbar() {
 
         {/* Mobile view nav bar */}
 
-        <div className="bg-black fixed w-screen top-0 mx-auto py-3 px-5 z-[100] lg:hidden block ">
+        <div className="bg-black fixed w-full top-0 mx-auto py-3 px-5 z-[100] lg:hidden block ">
           <div className="bg-black flex items-center justify-between z-[100]">
             <Link to="/" className="flex items-center gap-2">
               <img

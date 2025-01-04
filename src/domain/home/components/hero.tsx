@@ -20,10 +20,10 @@ export default function Hero() {
         }}
         className="z-50 flex flex-col"
       >
-        <main className="  w-full p-3 lg:p-0">
+        <main className="w-full h-full p-3 lg:p-0">
           <div className="container mx-auto flex flex-col items-start justify-start lg:space-y-8">
-            <motion.p className="text-2xl md:text-3xl lg:text-[40px] text-[#67e8bc] uppercase md:w-[50%] font-bold">
-            Experience The Power of Premium AI Models Tailored for Africa
+            <motion.p className="text-2xl md:text-3xl text-[#67e8bc] uppercase md:w-[50%] font-bold ">
+              Unlock AI Power Tailored for Africa
             </motion.p>
             <motion.p className="text-[#67e8bc]  md:text-xl">
             Access premium AI tools for a 5-10x boost in academic performance and productivity.
