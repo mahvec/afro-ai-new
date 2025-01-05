@@ -29,7 +29,7 @@ export default function Navbar() {
             >
               <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                 <Link to={"/about"}>About</Link>
-                <Link to={"/"}>Products</Link>
+                <Link to={"/products"}>Products</Link>
                 <Link to={"/community"}>Community</Link>
               </ul>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
           >
             <ul className="flex-col  flex space-y-4 mt-4 text-center">
               <Link to={"/about"}>About</Link>
-              <Link to={"/"}>Products</Link>
+              <Link to={"/products"}>Products</Link>
               <Link to={"/community"}>Community</Link>
             </ul>
 
