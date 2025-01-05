@@ -1,6 +1,6 @@
-import back from "/about-us.jpg";
+import back from "/products.jpg";
 
-export default function ExploreJob() {
+export default function ProductHero() {
   return (
     <main
       style={{ backgroundImage: `url(${back})` }}
@@ -8,8 +8,8 @@ export default function ExploreJob() {
     >
       <div className="container flex items-center h-full text-[48px] mx-auto font-bold">
         <p className="flex items-center gap-4 text-white">
-          <span>About</span>
-          <span className="text-[#67e8bc]">Afro AI</span>
+          <span>Our</span>
+          <span className="text-[#67e8bc]">Products</span>
         </p>
       </div>
     </main>
