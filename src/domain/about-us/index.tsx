@@ -5,7 +5,7 @@ import Trusted from "./components/trusted";
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
       <Trusted />
       <AboutAfro />
