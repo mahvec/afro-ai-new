@@ -4,11 +4,7 @@ export default function Footer() {
       <div className="container mx-auto p-3">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <img
-              src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
-              className="mr-5 h-6 sm:h-9"
-              alt="logo"
-            />
+            <img src="/logowhite.png" className="mr-5 h-6 sm:h-9" alt="logo" />
             <p className="max-w-xs mt-4 text-sm">
               AFRO AI:{" "}
               <span className="text-[#67e8bc]">
