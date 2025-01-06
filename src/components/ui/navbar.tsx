@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import logowhite from "/logowhite.png";
 
 export default function Navbar() {
   const [nav, setNav] = useState(true);
@@ -14,10 +15,7 @@ export default function Navbar() {
         <nav className="container mx-auto border-gray-200 p-5">
           <div className=" flex flex-wrap items-center justify-between ">
             <Link to="/" className="flex font-orbitron gap-2">
-              <img
-                src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
-                alt="Afro ai"
-              />
+              <img src={logowhite} alt="Afro ai" className="w-10 h-10" />
               <span className="self-center uppercase text-lg font-semibold whitespace-nowrap">
                 Afro AI
               </span>
@@ -28,6 +26,7 @@ export default function Navbar() {
               id="mobile-menu"
             >
               <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+                <Link to={"/"}>Home</Link>
                 <Link to={"/about"}>About</Link>
                 <Link to={"/products"}>Products</Link>
                 <Link to={"/community"}>Community</Link>
@@ -48,10 +47,7 @@ export default function Navbar() {
         <div className="bg-black fixed w-full top-0 mx-auto py-3 px-5 z-[100] lg:hidden block ">
           <div className="bg-black flex items-center justify-between z-[100]">
             <Link to="/" className="flex items-center gap-2">
-              <img
-                src="https://www.afroai.ai/_next/static/media/logo.4ce121e8.png"
-                alt="Afro ai"
-              />
+              <img src={logowhite} alt="Afro ai" className="w-10 h-10" />
               <span className="self-center uppercase text-lg font-semibold whitespace-nowrap">
                 Afro AI
               </span>
